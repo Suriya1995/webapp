@@ -1,0 +1,300 @@
+/* DataTable */
+thead, th {text-align: center;}
+
+/*New Border Lebal*/
+/*[type="checkbox"].filled-in:not(:checked) + label:after {
+    border: 2px solid #00bcd4;
+}*/
+/*Navigater*/
+.logo-head {
+    content:url("../images/logo.png");
+    width: 45px;
+    height: 40px;   
+}
+.breadcrumb {
+    margin-bottom: -15px;
+    margin-top: -50px;   
+}
+
+.sidebar .user-info .image {
+    margin-right: 0px;
+}
+
+/* Background Color*/
+.bg-blue2{
+    background-color: #4d88ff !important;
+    color: #fff;
+}
+
+/*Image Picture*/
+.img-css{
+    height: 150px;
+    width: 150px; 
+    border: 1px solid #c2c2a3;
+}
+
+/* Padding Margin Css*/
+.p-d-8{
+    padding-top: 8px;
+}
+.p-t-8{
+    padding-top: 8px;
+}
+.m-t--4 {
+    margin-top: -4px;
+}
+.m-t--12{
+    margin-top: -12px;
+}
+.p-t-12{
+    padding-top: 12px;
+}
+/* Taps*/
+.nav-tabs{
+    margin-top: -15px;
+}
+
+/* Btn Upload File*/
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 2px 18px;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+}
+.btn-file-upload {
+    background-color: #8a8a5c;
+    border: 1px solid #7a7a52;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 18px;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+    width: 150px;
+    font-size: 12px;
+}
+.btn-file-upload:hover {background-color: #7a7a52}
+
+.btn-file-upload-f{
+    background-color: #009688;
+    border: 1px solid #008080;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px 18px;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+    width: 150px;
+    font-size: 12px;
+}
+.btn-file-upload-f:hover {background-color: #008080}
+
+.btn-file-upload-ex {
+    position: relative;
+    font-family: calibri;
+    width: 200px;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px dashed #BBB; 
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #ebebe0;
+    cursor:pointer;
+}
+
+/*Logo Tap*/
+.logo-bn-in {
+    content:url("../images/btn-tap/teamwork.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-bn-out {
+    content:url("../images/btn-tap/ph_outside.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-position {
+    content:url("../images/btn-tap/ph_position.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-bn-lv {
+    content:url("../images/btn-tap/level.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-bn-type {
+    content:url("../images/btn-tap/cv.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-bn-mnm {
+    content:url("../images/btn-tap/recruit.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-bn-department {
+    content:url("../images/btn-tap/leader.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-personIn {
+    content:url("../images/btn-tap/curriculum.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-address {
+    content:url("../images/btn-tap/shop.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-education {
+    content:url("../images/btn-tap/office.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-hiswork {
+    content:url("../images/btn-tap/management.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-general {
+    content:url("../images/btn-tap/general.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-trophy {
+    content:url("../images/btn-tap/trophy.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-btn-more {
+    content:url("../images/btn-tap/more.png");
+    width: 25px;
+    height: 25px;   
+}
+
+/*Button Management*/
+.btn-delete {
+    content:url("../images/btn-management/delete.png");
+    cursor: pointer;
+    width: 25px;
+    height: 25px;   
+}
+.btn-detail {
+    content:url("../images/btn-management/loupe.png");
+    cursor: pointer;
+    width: 25px;
+    height: 25px;   
+}
+.btn-edit {
+    content:url("../images/btn-management/pencil.png");
+    cursor: pointer;
+    width: 25px;
+    height: 25px;   
+}
+.btn-delete-selected {
+    content:url("../images/btn-management/delete-selected .png");
+    cursor: pointer;
+    width: 40px;
+    height: 35px; 
+}
+
+.icon-pdf{
+    content:url("../images/icon-file/pdf.png");
+    cursor: pointer;
+    width: 20px;
+    height: 20px;   
+    margin-top: 3px;
+}
+.icon-excel{
+    content:url("../images/icon-file/excel.png");
+    cursor: pointer;
+    width: 20px;
+    height: 20px;   
+    margin-top: 3px;
+}
+.icon-picture{
+    content:url("../images/icon-file/picture.png");
+    cursor: pointer;
+    width: 20px;
+    height: 20px;   
+    margin-top: 3px;
+}
+.icon-word{
+    content:url("../images/icon-file/word.png");
+    cursor: pointer;
+    width: 20x;
+    height: 20px;  
+    margin-top: 3px;
+}
+.icon-txt{
+    content:url("../images/icon-file/txt.png");
+    cursor: pointer;
+    width: 20x;
+    height: 20px;  
+    margin-top: 3px;
+}
+/* Logo Menu Main Personnal */
+.logo-data-person {
+    content:url("../images/btn-menu/add_personnal.png");
+    width: 40px;
+    height: 40px;   
+}
+.logo-head-person {
+    content:url("../images/btn-menu/personnal.png");
+    width: 40px;
+    height: 40px;   
+}
+.logo-head-retirement{
+    content:url("../images/btn-menu/retirement.png");
+    width: 40px;
+    height: 40px;   
+}
+.logo-head-Government_House{
+    content:url("../images/btn-menu/Government_House.png");
+    width: 40px;
+    height: 40px;   
+}
+.logo-data-basic {
+    content:url("../images/btn-menu/hierarchy.png");
+    width: 30px;
+    height: 30px;   
+}
+.logo-add-person {
+    content:url("../images/btn-menu/add_personnal.png");
+    width: 30px;
+    height: 30px;   
+}
+.logo-promotion {
+    content:url("../images/btn-menu/promotion.png");
+    width: 30px;
+    height: 30px;   
+}
+.logo-salary {
+    content:url("../images/btn-menu/salary.png");
+    width: 30px;
+    height: 30px;   
+}
+.logo-setting-person {
+    content:url("../images/btn-menu/setting_personnal.png");
+    width: 30px;
+    height: 30px;   
+}
+.logo-setting1-person {
+    content:url("../images/btn-menu/settings1.png");
+    width: 25px;
+    height: 25px;   
+}
+.logo-setting2-person {
+    content:url("../images/btn-menu/settings2.png");
+    width: 25px;
+    height: 25px;   
+}
